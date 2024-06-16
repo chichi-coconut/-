@@ -37,6 +37,27 @@ level: int - 遊戲等級，隨著得分的提高而增加。
 為建構函數，初始化隨機生成器和把gameOver跟paused設置為false
 ## HideCursor()
 將控制台的光標隱藏
+## GotoXY(int x, int y)
+將控制台光標移動到指定的(x, y)位置
+## IsFoodOnSnake(const Position& pos)
+檢查食物是否在蛇身上
+## IsFoodInCorner(const Position& pos)
+檢查食物是否在遊戲區域的四個角落
+## GenerateFood()
+生成新的食物位置。使用隨機數生成器生成食物的(x, y)坐標，並確保食物不在蛇身上或者角落
+## Setup(bool isFirstTime)
+設置或重置遊戲。設置基本變量，設置蛇頭位置在遊戲區域的中心，並清除蛇身。生成新的食物，重置分數、遊戲速度和級別。如果不是第一次遊戲，則執行倒計時。
+## Draw() 
+繪製遊戲畫面
+## ShowLevelUp() 
+顯示升級消息
+## CountDown()
+進行遊戲開始前的倒計時。從3倒數到1
+## PauseMenu()
+顯示暫停畫面包含繼續遊戲和重新開始
+## ClearPauseMenu()
+把暫停畫面清除
+
 ## 程式執行
 進入程式後會先顯示下圖
 ![image](https://github.com/chichi-coconut/-/blob/picture/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-06-16%20102836.png)
