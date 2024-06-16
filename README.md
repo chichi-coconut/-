@@ -21,7 +21,7 @@
 ![image](https://github.com/chichi-coconut/-/blob/picture/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-06-16%20102854.png)
 吃掉目標 分數加10分 同時貪食蛇蛇身變長一格
 ![image](https://github.com/chichi-coconut/-/blob/picture/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-06-16%20102914.png)
-美吃五隻 level增加
+每50分 level增加
 ![image](https://github.com/chichi-coconut/-/blob/picture/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-06-16%20102932.png)
 顯示等級2 同時貪食蛇速度加快 最高等級為10
 ![image](https://github.com/chichi-coconut/-/blob/picture/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-06-16%20102942.png)
