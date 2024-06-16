@@ -12,9 +12,21 @@
 
 
 ![image](https://github.com/chichi-coconut/-/blob/picture/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20SnakeGame.png)
-
+## 變數解釋
+width: int - 遊戲畫面寬度，定義遊戲區域的橫向大小。
+height: int - 遊戲畫面高度，定義遊戲區域的縱向大小。
+snakeHead: Position - 蛇頭的位置，使用Position結構體表示。
+snakeBody: vector<Position> - 蛇身的位置，使用vector儲存每個身體節點的位置。
+food: Position - 食物的位置，使用Position結構體表示。
+gameOver: bool - 遊戲是否結束的標誌，true表示遊戲結束，false表示遊戲進行中。
+paused: bool - 遊戲是否暫停的標誌，true表示暫停，false表示運行中。
+score: int - 玩家得分，隨著吃到食物而增加。
+gameSpeed: int - 遊戲速度，控制蛇移動的速度，數值越小速度越快。
+level: int - 遊戲等級，隨著得分的提高而增加。
 ## SnakeGame()
-
+為建構函數，初始化隨機生成器和把gameOver跟paused設置為false
+## HideCursor()
+將控制台的光標隱藏
 ## 程式執行
 進入程式後會先顯示下圖
 ![image](https://github.com/chichi-coconut/-/blob/picture/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-06-16%20102836.png)
